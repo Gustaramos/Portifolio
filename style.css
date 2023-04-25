@@ -5,8 +5,24 @@
     padding: 0%;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+}
+
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #222222;
     color: #ffffff;
@@ -17,7 +33,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 10%;
+    padding: 7% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,4 +104,15 @@ body {
     text-decoration: none;
     padding: 21.5px 0;
 
+}
+
+
+.rodape {
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400px;
 }
