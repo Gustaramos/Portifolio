@@ -156,6 +156,11 @@ body {
         padding: 10px 20px;
     }
 
+    .apresentacao__links__navegacao:hover {
+        width: 200px;
+        padding: 10px 0;
+    }
+
     .apresentacao__imagem {
         width: 40vh;
     }
