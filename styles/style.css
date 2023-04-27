@@ -152,6 +152,10 @@ body {
         width: auto;
     }
 
+    .apresentacao__links__navegacao {
+        padding: 10px 20px;
+    }
+
     .apresentacao__imagem {
         width: 40vh;
     }
